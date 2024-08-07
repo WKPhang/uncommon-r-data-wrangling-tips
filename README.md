@@ -6,7 +6,7 @@ List of uncommon R data wrangling tips
 - [2 Replicate dataframe rows based on frequency](#2-Replicate-dataframe-rows-based-on-frequency)
 
 
-### 1 Filter nested list
+## 1 Filter nested list
 To filter a nested "list" object by maintaining a list of selected characters, create a custom function script as below. Important note: this custom function mantains rows with empty element
 
 ```
@@ -22,7 +22,7 @@ If you intend to remove rows with empty element in the output filtered nested li
 filtered_list <- filtered_list[lengths(filtered_list) > 0]
 ```
 
-### 2 Replicate dataframe rows based on frequency
+## 2 Replicate dataframe rows based on frequency
 This is to replicate rows in a data frame based on a specified frequency. 
 You may add an identifier column to the replicated data if needed.
 
